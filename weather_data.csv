@@ -1,0 +1,4 @@
+timestamp,temp,heatIndex,dewpt,windChill,windSpeed,windGust,pressure,precipRate,precipTotal,elev
+2023-08-12 16:47:29,19,19,18,19,0,0,1009.4,0.0,4.06,393
+2023-08-12 16:47:54,19,19,17,19,3,3,1009.4,0.0,4.06,393
+2023-08-12 16:47:55,19,19,17,19,3,3,1009.4,0.0,4.06,393
