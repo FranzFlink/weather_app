@@ -1,0 +1,48 @@
+body {
+    background: rgb(31, 31, 31);
+    font-family: sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(30, 151, 0)
+}
+
+
+
+/* changes the text color of input box */
+.Select-value-label {
+    color: black !important;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+
+/* dropdown menu options */
+.VirtualizedSelectOption {
+    background-color: black;
+    color: white;
+ }
+
+
+/* dropdown menu hover effect */
+.VirtualizedSelectFocusedOption {
+    background-color: black;
+    opacity: .7;
+}
+
+
+/* border on focus - default is blue
+ * shadow box around input box.  default is blue
+ */
+.is-focused:not(.is-open) > .Select-control {
+  border-color: var(--primary); 
+  box-shadow: none;
+}
+
+/* this colors the input box text and x  of multi dropdown*/
+.Select--multi .Select-value {
+  color: rgb(87, 111, 66);
+}
+

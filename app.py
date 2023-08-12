@@ -1,15 +1,3 @@
-import dash
-import dash_bootstrap_components as dbc
-from dash import dcc, html
-from dash.dependencies import Input, Output
-import pandas as pd
-import plotly.graph_objs as go
-import requests
-import pandas 
-import time
-# Initialize the Dash app with Bootstrap for styling
-app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-
 # Define the path to the CSV file
 csv_path = "/home/josh/python_scripts/weather_app/weather_data.csv"
 
