@@ -18,7 +18,6 @@ tenacity
 tzdata
 Werkzeug
 pandas
-time
 threading
 requests
 dash_bootstrap_components
